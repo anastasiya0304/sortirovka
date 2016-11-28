@@ -72,3 +72,4 @@ script:
     - cmake -DGLOBAL_PROJECT_NAME=sortirovka ..
     - make
 - make test ARGS="-VV"
+
