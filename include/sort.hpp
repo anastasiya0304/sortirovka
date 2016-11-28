@@ -22,6 +22,7 @@ public:
 	}
 };
 
+
 class Sort {
 public:
 	Sort(string name_main_file,size_t buff_size);
