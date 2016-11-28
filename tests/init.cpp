@@ -8,7 +8,7 @@ using namespace std;
  
 SCENARIO("count111", "[count1111]"){
  setlocale(LC_ALL, "Russian");
- Sort obj("nfy.txt",1048576);
+ Sort obj("name.txt",1048576);
  ifstream hay("out.txt");
 ifstream file("sort.txt");
 
