@@ -72,4 +72,3 @@ script:
     - cmake -DGLOBAL_PROJECT_NAME=sort_test ..
     - make
 - make test ARGS="-VV"
-
