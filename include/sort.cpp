@@ -111,7 +111,7 @@ inline auto Sort::file_sort()->void {
 
 		if (!(*ff.f).eof())
 		{
-			getline(*ff.f, ff.str);
+			getline(*ff.f, ff.s);
 			end_sorting.push(ff);
 		}
 		else
