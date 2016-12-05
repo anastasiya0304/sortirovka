@@ -37,7 +37,7 @@ private:
 	size_t buffer, count_of_files, closed_files;
 	vector<string> lines;
 	vector<string> file_names;
-	priority_queue<A> end_sorting;
+	priority_queue<S> end_sorting;
 };
 
 
