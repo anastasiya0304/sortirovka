@@ -69,7 +69,6 @@ inline auto Sort::make_file(string name_file)->void {
 inline auto Sort::file_size(string name_file)->size_t {
 	long fsize;
 	ifstream temp(name_file);
-	temp.seekg(0, ios::end);
 	fsize = temp.tellg();
 	temp.close();
 	return fsize;
