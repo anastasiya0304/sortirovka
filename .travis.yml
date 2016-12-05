@@ -1,6 +1,6 @@
 dist: precise
 language: generic
- 
+
 addons:
     apt:
         sources: &sources
@@ -10,7 +10,7 @@ addons:
 cache:
     apt: true
 
-matrix: 
+matrix:
     include:
         - os: osx
           compiler: clang
@@ -69,6 +69,6 @@ script:
     - BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
     - mkdir -p "${BUILD_DIR}"
     - cd "${BUILD_DIR}"
-    - cmake -DGLOBAL_PROJECT_NAME=sortirovka ..
+    - cmake -DGLOBAL_PROJECT_NAME=stack ..
     - make
-- make test ARGS="-VV"
+    - make test ARGS="-VV"
