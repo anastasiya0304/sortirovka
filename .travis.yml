@@ -10,7 +10,7 @@ addons:
 cache:
     apt: true
 
-matrix:
+matrix: 
     include:
         - os: osx
           compiler: clang
