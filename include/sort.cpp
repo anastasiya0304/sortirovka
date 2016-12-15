@@ -76,16 +76,18 @@ inline auto Sort::file_size(string name_file)->size_t {
 
 
 
-inline auto Sort::remove_temp_files()->void {
-	for (int i = 0; i < file_names.size(); ++i) {
-		if (remove(file_names[i].c_str()) == -1) 
-    {
-			throw;
-		}
-		else 
+inline auto Sort::remove_temp_files()->void
+{
+	for (int i = 0; i < file_names.size(); ++i) 
+		{
+			if (remove(file_names[i].c_str()) == -1) 
+   				 {
+					throw;
+				 }
+		/*else 
     {
 			cout << "YES";
-		}
+		}*/
 	}
 
 }
