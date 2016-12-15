@@ -84,10 +84,10 @@ inline auto Sort::remove_temp_files()->void
    				 {
 					throw;
 				 }
-		/*else 
+		else 
     {
 			cout << "YES";
-		}*/
+		}
 	}
 
 }
